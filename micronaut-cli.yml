@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: com.example
+testFramework: junit
+sourceLanguage: java
+buildTool: maven
+features: [annotation-api, app-name, github-workflow-azure-container-instance, http-client, java, java-application, junit, log4j2, maven, mongo-sync, netty-server, openapi, readme, shade, testcontainers, yaml]
