@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" always-add-relationships="true" generalizations="true" realizations="true" 
+  associations="true" dependencies="true" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="com.servicing.micronaut.controller.BillingContoller" project="micronautdemo_poc" 
+    file="/micronautdemo_poc/src/main/java/com/servicing/micronaut/controller/BillingContoller.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="160" width="316" x="454" y="369"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="2" language="java" name="com.servicing.micronaut.domain" project="micronautdemo_poc" 
+    file="/micronautdemo_poc/src/main/java/com/servicing/micronaut/domain" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1927" y="505"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <interface id="3" language="java" name="com.servicing.micronaut.service.BillingService" project="micronautdemo_poc" 
+    file="/micronautdemo_poc/src/main/java/com/servicing/micronaut/service/BillingService.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="142" width="323" x="706" y="587"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <package id="4" language="java" name="com.servicing.micronaut.repository" project="micronautdemo_poc" 
+    file="/micronautdemo_poc/src/main/java/com/servicing/micronaut/repository" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1633" y="507"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="5" language="java" name="com.servicing.micronaut.dto.BillingDTO" project="micronautdemo_poc" 
+    file="/micronautdemo_poc/src/main/java/com/servicing/micronaut/dto/BillingDTO.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="505" y="912"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="6" language="java" name="com.servicing.micronaut.service" project="micronautdemo_poc" 
+    file="/micronautdemo_poc/src/main/java/com/servicing/micronaut/service" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="55" width="254" x="1481" y="369"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="7" language="java" name="com.servicing.micronaut.adapter" project="micronautdemo_poc" 
+    file="/micronautdemo_poc/src/main/java/com/servicing/micronaut/adapter" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="55" width="255" x="1146" y="223"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="8" language="java" name="com.servicing.micronaut.dto" project="micronautdemo_poc" 
+    file="/micronautdemo_poc/src/main/java/com/servicing/micronaut/dto" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1909" y="407"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="9" language="java" name="com.servicing.micronaut.controller" project="micronautdemo_poc" 
+    file="/micronautdemo_poc/src/main/java/com/servicing/micronaut/controller" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="55" width="270" x="1441" y="223"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="10" language="java" name="com.servicing.micronaut.domain.BillingDAO" project="micronautdemo_poc" 
+    file="/micronautdemo_poc/src/main/java/com/servicing/micronaut/domain/BillingDAO.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1612" y="973"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="com.servicing.micronaut.repository.BillingRepository" project="micronautdemo_poc" 
+    file="/micronautdemo_poc/src/main/java/com/servicing/micronaut/repository/BillingRepository.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1335" y="568"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="12" language="java" name="com.servicing.micronaut.repository.IRepository" project="micronautdemo_poc" 
+    file="/micronautdemo_poc/src/main/java/com/servicing/micronaut/repository/IRepository.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1214" y="776"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="13" language="java" name="com.servicing.micronaut.service.BillingServiceImpl" project="micronautdemo_poc" 
+    file="/micronautdemo_poc/src/main/java/com/servicing/micronaut/service/BillingServiceImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1014" y="431"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <dependency id="14">    
+    <bendpoint x="1492" y="823"/>    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <realization id="15">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="12"/>  
+  </realization>  
+  <dependency id="16">    
+    <bendpoint x="654" y="587"/>    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="17">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="18">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <association id="19">    
+    <bendpoint x="1080" y="587"/>    
+    <bendpoint x="1080" y="823"/>    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="20" name="billingEntity">        
+        <position height="0" width="0" x="77" y="-931"/>      
+      </attribute>      
+      <multiplicity id="21" minimum="0" maximum="1">        
+        <position height="0" width="0" x="77" y="-931"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="22">    
+    <bendpoint x="1022" y="369"/>    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <association id="23">    
+    <bendpoint x="1059" y="587"/>    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="24" name="billingDTO">        
+        <position height="0" width="0" x="-356" y="-261"/>      
+      </attribute>      
+      <multiplicity id="25" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-356" y="-261"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="26">    
+    <bendpoint x="1805" y="587"/>    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <association id="27">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="28" name="billingService">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="29" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="30">    
+    <bendpoint x="800" y="369"/>    
+    <bendpoint x="675" y="587"/>    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <realization id="31">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <dependency id="32">    
+    <bendpoint x="1471" y="587"/>    
+    <bendpoint x="1471" y="823"/>    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <dependency id="33">    
+    <bendpoint x="1450" y="369"/>    
+    <bendpoint x="1450" y="587"/>    
+    <bendpoint x="1450" y="823"/>    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <association id="34">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="35" name="billingRepository">        
+        <position height="0" width="0" x="59" y="-117"/>      
+      </attribute>      
+      <multiplicity id="36" minimum="0" maximum="1">        
+        <position height="0" width="0" x="59" y="-117"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="37">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <dependency id="38">    
+    <bendpoint x="1765" y="369"/>    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <dependency id="39">    
+    <bendpoint x="1429" y="823"/>    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <dependency id="40">    
+    <bendpoint x="1101" y="587"/>    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="41">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <dependency id="42">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="43">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <dependency id="44">    
+    <bendpoint x="633" y="587"/>    
+    <bendpoint x="633" y="823"/>    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <dependency id="45">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <dependency id="46">    
+    <bendpoint x="2090" y="369"/>    
+    <bendpoint x="2090" y="587"/>    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <dependency id="47">    
+    <bendpoint x="715" y="823"/>    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
