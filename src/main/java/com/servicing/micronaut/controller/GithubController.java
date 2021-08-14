@@ -1,10 +1,7 @@
 package com.servicing.micronaut.controller;
 
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
 import java.net.URI;
-import java.net.URL;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
@@ -19,12 +16,12 @@ import com.servicing.micronaut.httpclient.GithubRelease;
 
 import io.micronaut.core.async.annotation.SingleResult;
 import io.micronaut.http.MediaType;
-import io.micronaut.http.MutableHttpResponse;
 import io.micronaut.http.annotation.Body;
 import io.micronaut.http.annotation.Controller;
 import io.micronaut.http.annotation.Get;
+import io.micronaut.http.annotation.PathVariable;
 import io.micronaut.http.annotation.Post;
-import io.reactivex.Single;
+import io.micronaut.http.annotation.UriMapping;
 
 @Controller("/github") // <1>
 public class GithubController {
@@ -71,10 +68,10 @@ public class GithubController {
 	    }  
 	  
 		
-	@Post(value = "/createloandrawdownData", consumes = MediaType.APPLICATION_JSON)
-		String createData(@Body String text) throws IOException, InterruptedException {		
+	@Post(value = "/createloandrawdownData/{rid}", consumes = MediaType.APPLICATION_JSON)
+		String createData( @PathVariable("rid") String rid, @Body String text) throws IOException, InterruptedException {		
 		HttpRequest request = HttpRequest.newBuilder()
-		        .uri(URI.create("http://BLRCSWLIQMT0096:10082/loaniqwebservice/restapi/createData/LoanDrawdown/Facility/id/N486E7O4"))
+		        .uri(URI.create("http://BLRCSWLIQMT0096:10082/loaniqwebservice/restapi/createData/LoanDrawdown/Facility/id/"+rid))
 		        .POST(HttpRequest.BodyPublishers.ofString(text))
 		        .build();
 
@@ -84,13 +81,15 @@ public class GithubController {
 	    }  
     
 	
-	@Post(value = "/approveloandrawdowndata", consumes = MediaType.APPLICATION_JSON)
-	String approvalLoanDrawdownData(@Body String text) throws IOException, InterruptedException {		
+	@Post(value = "/approveloandrawdowndata/{rid}", consumes = MediaType.APPLICATION_JSON)
+	String approvalLoanDrawdownData( @PathVariable("rid") String rid , @Body String text) throws IOException, InterruptedException {		
+		
 	HttpRequest request = HttpRequest.newBuilder()
-	        .uri(URI.create("http://BLRCSWLIQMT0096:10082/loaniqwebservice/restapi/actionOnData/ModifyStatus/LoanInitialDrawdown/id/Z*EXN21T"))
+	        .uri(URI.create("http://BLRCSWLIQMT0096:10082/loaniqwebservice/restapi/actionOnData/ModifyStatus/LoanInitialDrawdown/id/"+rid))
 	        .POST(HttpRequest.BodyPublishers.ofString(text))
 	        .build();
-
+	
+	
 	HttpClient client = HttpClient.newHttpClient();
 	HttpResponse<String> send = client.send(request, BodyHandlers.ofString());		
 	return send.body();
